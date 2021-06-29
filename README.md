@@ -1,5 +1,5 @@
-# nflix_th_test
-nflix_th_test is a utility that allows lists the best 10 seafood restaurants in Boston according to Yelp.
+# seafood-restaurants-cron
+seafood-restaurants-cron is a utility that allows lists the best 10 seafood restaurants in Boston according to Yelp.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
