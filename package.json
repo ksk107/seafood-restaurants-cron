@@ -1,0 +1,19 @@
+{
+  "name": "seafood-restaurants-cron",
+  "version": "1.0.0",
+  "description": "Cron Job listing 10 best seafood restaurants in Boston according to yelp",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "author": "Krithick Krishnagiri",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.6",
+    "node-cron": "^3.0.0"
+  }
+}
