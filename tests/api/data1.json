@@ -1,0 +1,104 @@
+{
+    "businesses": [
+        {
+            "id": "y2w6rFaO0XEiG5mFfOsiFA",
+            "alias": "neptune-oyster-boston",
+            "name": "Neptune Oyster",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HsyTiIEimGNuo-tR-k_joA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/neptune-oyster-boston?adjust_creative=ZATW30U5VZZuLOHQSd3lTA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ZATW30U5VZZuLOHQSd3lTA",
+            "review_count": 10,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 42.36321,
+                "longitude": -71.05594
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "63 Salem St",
+                "address2": "",
+                "address3": "",
+                "city": "Boston",
+                "zip_code": "02113",
+                "country": "US",
+                "state": "MA",
+                "display_address": [
+                    "63 Salem St",
+                    "Boston, MA 02113"
+                ]
+            },
+            "phone": "+16177423474",
+            "display_phone": "(617) 742-3474",
+            "distance": 2122.4029385375484
+        },
+        {
+            "id": "AGR_kBvN__I7aTl0rBywAg",
+            "alias": "atlantic-fish-co-boston-3",
+            "name": "Atlantic Fish Co",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xJusgkYOtbNvBmf0Hzay5A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/atlantic-fish-co-boston-3?adjust_creative=ZATW30U5VZZuLOHQSd3lTA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ZATW30U5VZZuLOHQSd3lTA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "raw_food",
+                    "title": "Live/Raw Food"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 42.3492217873536,
+                "longitude": -71.0811272917217
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "761 Boylston St",
+                "address2": "",
+                "address3": "",
+                "city": "Boston",
+                "zip_code": "02113",
+                "country": "US",
+                "state": "MA",
+                "display_address": [
+                    "761 Boylston St",
+                    "Boston, MA 02113"
+                ]
+            },
+            "phone": "+16172674000",
+            "display_phone": "(617) 267-4000",
+            "distance": 826.6340017964785
+        }
+    ],
+    "total": 2100,
+    "region": {
+        "center": {
+            "longitude": -71.07124328613281,
+            "latitude": 42.34784169448538
+        }
+    }
+}

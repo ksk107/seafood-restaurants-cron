@@ -5,14 +5,15 @@
  */
 
  const generateReport = (res) => {
-  if (isValidJson(res)) {
-    console.log(`Below is the list of top 10 seafood restaurants in Boston`);
+  if (isValidJson(res) && res.noOfRestaurants > 0) {
+    console.log(
+      `According to yelp reviews zip code ${res.zipCode} has the best seafood restaurants in Boston with ${res.noOfRestaurants} restaurants having an average rating of ${res.maxRating}`
+    );
     console.log(``);
-    for (let count in res.data) {
-      console.log(`${Number(count) + 1}: ${res.data[count].name}`);
-    }
-    console.log(``);
-    console.log(`* * * * * *`);
+  } else {
+    console.log(
+      `There are not enough reviews in yelp to make a conclusive decision`
+    );
   }
 };
 

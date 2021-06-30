@@ -1,5 +1,5 @@
 # seafood-restaurants-cron
-seafood-restaurants-cron is a utility that allows lists the best 10 seafood restaurants in Boston according to Yelp.
+seafood-restaurants-cron is a utility that finds the zip code in Boston with best average reviewed sea food restaurant in yelp
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:

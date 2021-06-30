@@ -1,5 +1,5 @@
 /**
- * Cron Job which generate a report of the top 10 sea food restaurants in Boston
+ * Cron Job which generate a report of the zip code which has the best reviewed sea food restaurants with over 50 reviews and having atleast 2 restaurants
  * This runs every 5 seconds. The data is fetched from Redis, if unavailable
  * then the data is then fetched from yelp business search api
  *
@@ -14,10 +14,11 @@
  
  const app = async () => {
    const val = await db.getResponse();
-   let result = {};
  
+   let result = {};
    if (!val) {
      result = await api.api_call(url, api_key);
+     console.log({ result });
      report.generateReport(result);
      await db.setResponse(result);
    } else {
@@ -28,3 +29,4 @@
  cron.schedule("*/5 * * * * *", async () => {
    await app();
  });
+ 

@@ -2,23 +2,24 @@ const report = require("../../report");
 
 const mock = null;
 const mockData = {
-  data: [{ name: "New Deal Fish Market" }, { name: "Atlantic Fish Company" }],
+  zipCode: "02111",
+  maxRating: "4.5",
+  noOfRestaurants: 10,
 };
 
-const str = `Below is the list of top 10 seafood restaurants in Boston`;
+const str = `According to yelp reviews zip code 02111 has the best seafood restaurants in Boston with 10 restaurants having an average rating of 4.5`;
+const errStr = `There are not enough reviews in yelp to make a conclusive decision`;
 describe("Invalid Input", () => {
   test("Input is null", () => {
-    // TODO: test something that should not log
     console.log = jest.fn();
     report.generateReport(mock);
-    expect(console.log).not.toHaveBeenCalled();
+    expect(console.log.mock.calls[0][0]).toEqual(errStr);
   });
 
   test("Empty json object", () => {
-    // TODO: test something that should not log
     console.log = jest.fn();
     report.generateReport(mock);
-    expect(console.log).not.toHaveBeenCalled();
+    expect(console.log.mock.calls[0][0]).toEqual(errStr);
   });
 });
 describe("Valid Input", () => {
