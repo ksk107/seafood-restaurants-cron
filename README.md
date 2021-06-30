@@ -1,5 +1,5 @@
 # seafood-restaurants-cron
-seafood-restaurants-cron is a utility that finds the zip code in Boston with best reviewed sea food restaurant in yelp
+seafood-restaurants-cron is a utility that finds the zip code in Boston with best reviewed sea food restaurant in yelp. Criteria is there should be 50 reviews and the zip code should have atleast 2 restaurants
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
