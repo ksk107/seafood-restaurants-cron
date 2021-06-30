@@ -32,7 +32,7 @@ To install all the dependencies
 npm install
 ```
 
-## Using nflix_th_test
+## Using seafood-restaurants-cron
 
 To run the application
 ```
