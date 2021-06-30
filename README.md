@@ -25,7 +25,7 @@ Run redis-server.exe under 64bit or 32 bit folder according to your system
 
 https://www.yelp.com/developers
 
-## Installing nflix_th_test
+## Installing seafood-restaurants-cron
 To install all the dependencies
 
 ```
